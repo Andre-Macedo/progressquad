@@ -59,8 +59,8 @@
 
 <section class="hero-section text-center text-white d-flex align-items-center justify-content-center">
     <div class="container">
-        <h1 class="display-4">Robo Autonomo</h1>
-        <p class="lead">Projeto academico para aprofundarmos em robotica.</p>
+        <h1 class="display-4">Progress Squad</h1>
+        <p class="lead">Projeto robo autônomo.</p>
         <a href="#about" class="btn btn-primary btn-lg mt-3">Veja mais</a>
         <a href="#gallery" class="btn btn-secondary btn-lg mt-3 ms-3">Galeria</a>
     </div>
@@ -128,7 +128,12 @@
             <div class="col-md-4 col-lg-3">
                 <div class="feature-box p-4">
                     <div class="feature-icon mb-3">
-                        <img src="/api/placeholder/80/80" alt="Sensor" class="img-fluid"/>
+                        <picture>
+                            <source srcset="public/img/components/sensor-120.webp" type="image/webp">
+                            <source srcset="public/img/components/sensor-120.jpg" type="image/jpg">
+                            <img src="public/img/components/sensor-120.jpg" alt="Sensor" class="img-fluid" width="120"
+                                 height="120"/>
+                        </picture>
                     </div>
                     <h4>Sensores HC-SR04</h4>
                     <p>Três sensores ultrassônicos para detecção precisa de obstáculos em diferentes ângulos.</p>
@@ -155,9 +160,13 @@
             <div class="col-md-4 col-lg-3">
                 <div class="feature-box p-4">
                     <div class="feature-icon mb-3">
-                        <img src="/api/placeholder/80/80" alt="Driver" class="img-fluid"/>
+                        <picture>
+                            <source srcset="public/img/components/shield-120.webp" type="image/webp">
+                            <source srcset="public/img/components/shield-120.jpg" type="image/jpg">
+                            <img src="public/img/components/shield-120.jpg" alt="Shield L293D" class="img-fluid" width="120"
+                                 height="120"/>
                     </div>
-                    <h4>Driver L298N</h4>
+                    <h4>Shield L293D</h4>
                     <p>Ponte H para controle bidirecional dos motores com ajuste de velocidade PWM.</p>
                 </div>
             </div>
@@ -214,10 +223,15 @@
             <div class="col-md-4 col-lg-3">
                 <div class="feature-box p-4">
                     <div class="feature-icon mb-3">
-                        <img src="/api/placeholder/80/80" alt="PCB" class="img-fluid"/>
+                        <picture>
+                            <source srcset="public/img/components/botao-switch-120.webp" type="image/webp">
+                            <source srcset="public/img/components/botao-switch-120.jpg" type="image/jpg">
+                            <img src="public/img/components/botao-switch-120.jpg" alt="PCB" class="img-fluid" width="120"
+                                 height="120"/>
+                        </picture>
                     </div>
-                    <h4>PCB Custom</h4>
-                    <p>Placa de circuito personalizada para conexões organizadas e confiáveis.</p>
+                    <h4>Botão Switch</h4>
+                    <p>Botão switch para ligar e desligar o sistema.</p>
                 </div>
             </div>
         </div>
